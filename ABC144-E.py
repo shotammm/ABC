@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abc144/tasks/abc144_e
+
 import math
 
 n,k = map(int, input().split())
