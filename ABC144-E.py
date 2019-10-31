@@ -3,6 +3,11 @@ import math
 n,k = map(int, input().split())
 lstA = list(map(int, input().split()))
 lstF = list(map(int, input().split()))
+# n = 11
+# k = 14
+# lstA = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+# lstF = [8, 9, 7, 9, 3, 2, 3, 8, 4, 6, 2]
+
 lstA.sort()
 lstF.sort()
 lstF.reverse()
@@ -28,3 +33,5 @@ while left <= right:
     if right==left:
         print(right)
         exit()
+
+# 12
